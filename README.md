@@ -1,2 +1,2 @@
 # Forecast
-It is a forecaste app for practicing Swift.
+It is a forecast app for practicing Swift.
