@@ -28,7 +28,7 @@ struct ForecastView: View {
                 
                 HStack {
                     Text(viewModel.weatherIcon)
-                        .font(.system(size: 50))
+                        .font(.system(size: 60))
                         .padding(.leading)
                     
                     Text(viewModel.weatherDescription)
@@ -46,7 +46,7 @@ struct ForecastView: View {
                 HStack {
                     Text(viewModel.temperature)
                         .font(.system(size: 70))
-                        .padding(.leading)
+                        .padding([.leading, .bottom])
                     Spacer()
                 }
                 

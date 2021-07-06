@@ -58,11 +58,11 @@
 		09B87F3B269037B800773B2A /* Forecast */ = {
 			isa = PBXGroup;
 			children = (
+				09B87F3C269037B800773B2A /* ForecastApp.swift */,
+				09B956E726941D8800E01EBC /* Models */,
+				09B87F512691A39900773B2A /* Views */,
 				09B87F672692CBF800773B2A /* ViewModels */,
 				09B87F662692CBE700773B2A /* Services */,
-				09B87F3C269037B800773B2A /* ForecastApp.swift */,
-				09B87F5B2691BADB00773B2A /* Forecast.swift */,
-				09B87F512691A39900773B2A /* Views */,
 				09B87F40269037BC00773B2A /* Assets.xcassets */,
 				09B87F45269037BC00773B2A /* Info.plist */,
 				09B87F42269037BC00773B2A /* Preview Content */,
@@ -100,6 +100,14 @@
 				09B87F5F2691ED7200773B2A /* ForecastViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09B956E726941D8800E01EBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09B87F5B2691BADB00773B2A /* Forecast.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
